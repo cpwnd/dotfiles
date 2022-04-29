@@ -1,0 +1,4 @@
+[alias]
+  recenb = branch -r --sort=-committerdate
+  # https://stackoverflow.com/questions/1441010/the-shortest-possible-output-from-git-log-containing-author-and-date
+  hs = "log --pretty='%C(yellow)%h %C(cyan)%cd %Cblue%aN%C(auto)%d %Creset%s' --graph --date=relative --date-order"
